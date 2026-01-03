@@ -1,0 +1,68 @@
+/* Overall body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* white background */
+    color: #fff; /* default text color (will override in container) */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for form */
+.container {
+    background-color: #c0392b; /* deep red background */
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #888;
+    color: #fff; /* text white */
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form labels */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}
+
+/* Submit button */
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff; /* white button */
+    color: #c0392b; /* red text */
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e74c3c; /* slightly darker red on hover */
+    color: #fff;
+}
+
+/* Note text */
+.note {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 15px;
+    color: #f9f9f9;
+}
